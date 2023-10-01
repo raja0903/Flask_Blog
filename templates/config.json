@@ -1,0 +1,18 @@
+{"params":
+{
+    "local_server":"True",
+    "local_uri":"mysql://root:@localhost/coding_thunder",
+    "prod_uri":"mysql://root:@localhost/coding_thunder",
+    "fb_url":"https://facebook.com/coding_thunder.com",
+    "tw_url":"https://twitter.com/coding_thunder.com",
+    "git_url":"https://github.com/coding_thunder",
+    "blog_name":"your name Blogs[set from config.json]",
+    "tagline":"A blog for programmers",
+    "gmail_user":"your_gmail",
+    "gmail_password":"your_password",
+    "about_text":"Hi my name is set your own from config.json",
+    "no_of_post":2,
+    "admin":"set your own",
+    "admin_password":"set your own"
+}
+}

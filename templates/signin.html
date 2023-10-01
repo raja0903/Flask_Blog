@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static',filename='css/signin.css')}}">
+    <title>Admin Login</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <form id="login-form" class="form" action="/dashboard" method="post">
+                <h2>Admin Login</h2>
+                <div class="form-group">
+                    <label for="login-username">E-mail:</label>
+                    <input type="text" id="login-username" name="uname" required>
+                </div>
+                <div class="form-group">
+                    <label for="login-password">Password:</label>
+                    <input type="password" id="login-password" name="upswd" required>
+                </div>
+                <button type="submit">Login</button>
+            </form>
+           
+        </div>
+    </div>
+</body>
+</html>
